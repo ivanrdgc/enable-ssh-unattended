@@ -1,0 +1,11 @@
+autoinstall:
+  version: 1
+  interactive-sections:
+    - "*"
+
+  ssh:
+    install-server: true
+    authorized-keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPCYjhDnZ75U3sP/TlGyjZspvpu21/xDpZmtMfVYw93+
+    allow-pw: false
+
